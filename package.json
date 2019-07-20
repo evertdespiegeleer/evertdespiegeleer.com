@@ -4,7 +4,7 @@
   "description": "Personal website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "http-server ./www",
     "clean": "git clean -dfX",
     "deploy": "git push origin `git subtree split --prefix www master`:gh-pages --force"
   },
@@ -18,5 +18,7 @@
     "url": "https://github.com/evertdespiegeleer/evertdespiegeleer.com/issues"
   },
   "homepage": "https://github.com/evertdespiegeleer/evertdespiegeleer.com#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }
