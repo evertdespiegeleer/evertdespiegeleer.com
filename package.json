@@ -1,0 +1,24 @@
+{
+  "name": "evertdespiegeleer.com",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "git clean -dfX",
+    "deploy": "gh-pages -d www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evertdespiegeleer/evertdespiegeleer.com.git"
+  },
+  "author": "Evert De Spiegeleer",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/evertdespiegeleer/evertdespiegeleer.com/issues"
+  },
+  "homepage": "https://github.com/evertdespiegeleer/evertdespiegeleer.com#readme",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
