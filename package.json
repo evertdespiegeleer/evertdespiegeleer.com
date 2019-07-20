@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "git clean -dfX",
-    "deploy": "gh-pages -d www"
+    "deploy": "git subtree push --prefix www origin gh-pages"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,5 @@
     "url": "https://github.com/evertdespiegeleer/evertdespiegeleer.com/issues"
   },
   "homepage": "https://github.com/evertdespiegeleer/evertdespiegeleer.com#readme",
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
-  }
+  "devDependencies": {}
 }
